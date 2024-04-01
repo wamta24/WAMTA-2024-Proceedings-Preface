@@ -1,0 +1,107 @@
+%
+\documentclass{llncs}
+
+\usepackage{xcolor}
+%
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+%
+\section*{Preface}
+%
+This volume contains \textcolor{blue}{some} papers presented at WAMTA 2023, the inaugural edition of the Workshop on Asynchronous Many-Task Systems and Applications, held at the Center for Computation and Technology on the Louisiana State University campus in Baton Rouge, LA, USA, from February 15th to February 17th 2023. The workshop was a hybrid event, with the ability for authors and attendees to present, attend and interact both in-person and online.
+
+WAMTA was created in response to the ever-growing scale of high performance computing, and in recognition of the increasing strain this growth puts on software systems at all levels. Core challenges in this context include load-balancing, fast data transfers, and efficient resource utilization. Task-based models and runtime systems have shown that it is possible to address these challenges by providing mechanisms such as oversubscription, task/data locality, shared memory, and data-dependence-driven execution.
+
+The objective of WAMTA is to provide a forum for exploring the advantages and challenges of task-based programming on modern and future HPC systems. It allows developers, users, and proponents of these models and systems to share experience, discuss how they meet the challenges posed by Exascale system architectures, and explore opportunities for increased performance, robustness, productivity, and full-system utilization.
+
+Seven papers were submitted to WAMTA 2023, and the 24 members of the Program Committee (PC) assessed the quality, relevance, and presentation of these contributions. \textcolor{blue}{Each paper received at least three reviews by PC members. If the three reviews did not degree, a fourth review was consulted. In the end, a total of six papers were accepted. For each paper, one author in the author list was chosen to present the work. Unfortunately, one of the accepted papers could was not able to present their talk at WAMTA 23; however, the paper is still included in the proceedings. In addition, some papers represent extended versions of the talks given at WAMTA23, including extra authors. The result is six papers of very high quality.}
+
+In addition to the presentations of these technical papers, the two and a half day workshop program included three keynote talks, an industrial talk, and 15 technical talks, as well as a poster session.
+
+We would like to thank all authors, speakers, chairs, organizers, PC members and attendees for their contributions towards the success of WAMTA 2023.
+
+Furthermore, we would like to thank our sponsors: Tactical Computing Lab, HPE Enterprise, National Science Foundation, and LSU Center of Computation \& Technology,
+
+\vspace{3em}
+\noindent February 2023
+\newline \hspace*{\fill} Patrick Diehl
+\newline \hspace*{\fill} Hartmut Kaiser
+\newline \hspace*{\fill} Peter Thoman
+\newline \hspace*{\fill} Laxmikant (Sanjay) Kale
+
+\subsection*{Steering Committee}
+%Please introduce one name and affiliation per line as below.
+\begin{tabular}{@{}p{5cm}@{}p{7.2cm}@{}}
+Patrick Diehl & Louisiana State University, USA\\
+Peter Thoman & University of Innsbruck, Austria\\
+Hartmut Kaiser & Louisiana State University, USA\\
+Laxmikant (Sanjay) Kale & University of Illinois at Urbana-Champaign, USA\\
+\end{tabular}
+
+\subsection*{Program Committee}
+%Please introduce one name and affiliation per line as below.
+\begin{tabular}{@{}p{5cm}@{}p{7.2cm}@{}}
+Jeff Hammond & NVIDIA, USA \\
+Bita Hasheminezhad & NASA Ames Research Center, USA \\
+Pedro Valero-Lara & Oak Ridge National Laboratory, USA
+\\
+H. Metin Aktulga & MSU College of Engineering, USA
+\\
+Keita Teranishi & Sandia National Laboratories, USA \\
+Weile Wei & Lawrence Berkeley National Laboratory, USA\\
+Brad Richardson & Sourcery Institute, USA \\
+Patricia Grubel & Los Alamos National Laboratory, USA\\
+Kevin Huck & University of Oregon, USA \\
+Dirk Pflüger & University of Stuttgart, Germany \\
+Roman Iakymchuk & Sorbonne Universite, France \\
+Huda Ibeid & Intel, USA \\
+Ben Bergen & Los Alamos National Laboratory, USA \\
+Dirk Pleiter & KTH Royal Institute of Technology, Sweden \\
+Didem Unat & Koç University, Turkey \\
+Daisy Hollman & Google, USA \\
+Gregor Daiß & University of Stuttgart,  Germany \\
+Najoude Nader & Louisiana State University, USA \\
+Sebastian Eibl &  Max Planck Computing \& Data Facility, Germany \\
+Sebastian Ohlmann & Max Planck Computing \& Data Facility, Germany
+\end{tabular}
+
+\subsection*{Sponsors}
+\begin{tabular}{@{}p{8cm}@{}@{}}
+LSU Center for computation \& Technology \\
+Tactical Computing Lab \\
+HPE Enterprise \\
+National Science Foundation (NSF award 2229751)
+
+\end{tabular}
+
+\section*{Table of contents}
+
+\begin{itemize}
+    \item Extending Hedgehog’s dataflow graphs to
+multi-node GPU architectures \\
+Authors: Nitish Shingde, Martin Berzins, Timothy Blattner, Walid Keyrouz, and Alexandre Bardakoff
+\item Command Horizons: Coalescing Data
+Dependencies while Maintaining Asynchronicity \\
+Authors: Peter Thoman and Philip Salzmann
+\item Shared memory parallelism in Modern C++ and
+HPX\\
+Authors: Patrick Diehl, Steven R. Brandt, and Hartmut
+Kaiser
+\item Framework for Extensible, Asynchronous Task
+Scheduling (FEATS) in Fortran\\
+Authors: Brad Richardson, Damian Rouson, Harris Snyder, and Robert
+Singleterry 
+\item Scalability of Gaussian Processes Using
+Asynchronous Tasks: A Comparison Between
+HPX and PETSc \\
+Authors: Alexander Strack and Dirk Pflüger
+\item Scheduling Many-Task Applications on
+Multi-clouds and Hybrid Clouds \\
+Authors: Shifat P. Mithila, Peter Franz, Gerald Baumgartner
+
+\end{itemize}
+
+
+
+\end{document}
